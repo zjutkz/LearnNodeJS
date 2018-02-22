@@ -82,7 +82,7 @@
 
 //=================================================
 
- var fs = require("fs");
+//var fs = require("fs");
 //
 // fs.readFile("file1","utf-8",function(err, txt1) {
 //     fs.readFile("file2","utf-8",function(err, txt2) {
@@ -91,23 +91,24 @@
 // });
 //
 
-function read(fileName) {
-    return new Promise(function (resolve, reject) {
-        fs.readFile(fileName,"utf-8",function(err, data) {
-            resolve(data);
-        });
-    });
-}
+//yield之后会被await代替，这个需要注意！
 
-var flow = function* () {
-    yield read("file1");
-    yield read("file2");
-};
-
-var generator = flow();
-var txt1 = generator.next().value.then(txt => console.log(txt));
-var txt2 = generator.next().value.then(txt => console.log(txt));
-console.log(txt1 + " " + txt2);
+//var co = require("co");
+// function read(fileName) {
+//     return new Promise(function (resolve, reject) {
+//         fs.readFile(fileName,"utf-8",function(err, data) {
+//             console.log(fileName + ": " + data);
+//             resolve(data);
+//         });
+//     });
+// }
+//
+// var flow = function* () {
+//     yield read("file1");
+//     yield read("file2");
+// };
+//
+// co(flow());
 
 //=================================================
 

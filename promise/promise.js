@@ -20,6 +20,7 @@ haha("file1","")
 
 //async和await感觉是在语法层面上解决了callback hell，代码比起一味的then then的要好看很多
 
+//var co = require("co");
 // function haha(fileName) {
 //     return new Promise(function (resolve, reject) {
 //         fs.readFile(fileName,"utf-8",function(err, data) {
@@ -31,5 +32,5 @@ haha("file1","")
 // async function fetch(){
 //     var txt1 = await haha("file1");
 //     var txt2 = await haha("file2");
-//     console.log(txt1 + " " + txt2);
 // }
+// co(fetch());
