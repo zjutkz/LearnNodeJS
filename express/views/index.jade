@@ -1,0 +1,10 @@
+block content
+    h1 product list
+    ul
+        for product in products
+            li= product.name
+            h5= product.desc
+            h5= product.price
+            br
+        else
+            li sorry, no books!

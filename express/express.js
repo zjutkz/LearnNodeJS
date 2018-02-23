@@ -8,6 +8,8 @@ const child_process = require('child_process');
 
 //模拟直出的思想，localhost:9999是一个java的服务，浏览器输入localhost:8080
 //node中间层去localhost:9999进行数据，然后展示。
+app.set('views', __dirname + '/views');
+app.set('view engine', 'jade');
 app.get('/', function (request, response) {
     console.log("主页 GET 请求");
 
@@ -21,9 +23,10 @@ app.get('/', function (request, response) {
     var req = http.request(options,function(res){
         res.setEncoding('utf-8');
         res.on('data',function(chunk){
-            console.log(chunk);
-            response.writeHead(200, {"Content-Type": "text/plain"});
-            response.write(chunk);
+            var products = JSON.parse(chunk);
+            response.render('index', {
+                products: products
+            });
             response.end();
         });
         res.on('end',function(){
@@ -82,6 +85,6 @@ app.get('/ab*cd', function(req, res) {
 });
 
 
-var server = app.listen(8080, function () {
+var server = app.listen(8081, function () {
     console.log("服务已启动");
 });
