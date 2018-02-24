@@ -6,4 +6,4 @@ http.createServer(function(request, response) {
     response.end();
 }).listen(8082);
 
-console.log("nodejs start listen 8080 port!");
+console.log("nodejs start listen 8082 port!");
