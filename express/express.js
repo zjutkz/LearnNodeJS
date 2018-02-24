@@ -8,6 +8,7 @@ const child_process = require('child_process');
 
 //模拟直出的思想，localhost:9999是一个java的服务，浏览器输入localhost:8080
 //node中间层去localhost:9999进行数据，然后展示。
+//https://cloud.tencent.com/developer/article/1004935
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.get('/', function (request, response) {
