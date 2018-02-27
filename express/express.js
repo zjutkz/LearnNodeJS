@@ -61,6 +61,7 @@ app.get('/del_user/2.0', function (req, res) {
 
 //通过子进程的方式去做一些回调里的耗时操作
 //static中间件，可以直接引用静态资源(不过好像用了这个中间件，就不会进入callback了)
+//http://www.cnblogs.com/A-dam/p/5053299.html
 app.use('/list_user', express.static(__dirname + '/www'));
 //var delayer = require("./delay");
 
