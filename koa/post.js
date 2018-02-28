@@ -1,5 +1,6 @@
 const Koa = require('koa')
 const app = new Koa()
+var formidable = require("formidable");
 
 app.use( async ( ctx ) => {
 
@@ -21,6 +22,11 @@ app.use( async ( ctx ) => {
     } else if ( ctx.url === '/' && ctx.method === 'POST' ) {
         // 当POST请求的时候，解析POST表单里的数据，并显示出来
         let postData = await parsePostData( ctx )
+
+        // var form = new formidable.IncomingForm();
+        // form.parse(ctx.request, function(error, fields, files) {
+        //     console.log(fields.userName)
+        // })
         ctx.body = postData
     } else {
         // 其他请求显示404
