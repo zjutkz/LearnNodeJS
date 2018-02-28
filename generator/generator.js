@@ -93,22 +93,30 @@
 
 //yield之后会被await代替，这个需要注意！
 
-//var co = require("co");
-// function read(fileName) {
-//     return new Promise(function (resolve, reject) {
-//         fs.readFile(fileName,"utf-8",function(err, data) {
-//             console.log(fileName + ": " + data);
-//             resolve(data);
-//         });
-//     });
-// }
-//
-// var flow = function* () {
-//     yield read("file1");
-//     yield read("file2");
-// };
-//
-// co(flow());
+var co = require("co");
+var fs = require("fs")
+function read(fileName) {
+    return new Promise(function (resolve, reject) {
+        fs.readFile(fileName,"utf-8",function(err, data) {
+            resolve(data);
+        });
+    });
+}
+
+var flow = function* () {
+    var txt1 = yield read("file1");
+    var txt2 = yield read("file2");
+    console.log(txt1 + " " + txt2);
+};
+
+async function yeah() {
+    var txt1 = await read(("file1"))
+    var txt2 = await read("file2")
+    console.log(txt1 + " " + txt2)
+}
+
+//yeah()
+co(flow())
 
 //=================================================
 
