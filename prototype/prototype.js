@@ -1,3 +1,5 @@
+//https://sunyuhui.com/2016/05/28/prototype-chain/
+
 // function People(name) {
 //     this.name=name;
 //     //对象方法
@@ -28,23 +30,57 @@
 
 //================================
 
-function Clz() {
+// function Clz() {
+//
+// }
+//
+// Clz.prototype.method = function () {
+//     console.log("This is a method")
+// }
+//
+// Clz.prototype.haha = function () {
+//     console.log("haha")
+// }
+//
+// Clz.haha = function () {
+//     console.log("xixi")
+// }
+//
+// Clz.haha()
+// new Clz().haha()
 
+//================================
+
+// function Person(name) {
+//     this.name = name;
+// }
+// Person.prototype.getName = function () {
+//     console.log(this.name)
+// }
+// var person = new Person("zjutkz");
+//
+// console.log(Person.prototype)
+// console.log(Person.prototype.constructor)
+// console.log(person.__proto__)
+
+//================================
+
+function Animal(planet){
+    this.planet = planet;
+}
+Animal.prototype.getPlanet = function(){
+    return this.planet;
 }
 
-Clz.prototype.method = function () {
-    console.log("This is a method")
+function Person(name){
+    this.name = name;
 }
 
-Clz.prototype.haha = function () {
-    console.log("haha")
+Person.prototype = new Animal('earth');  // 没有这一句，Animal和Person豪不相干，有了这一句，就实现了继承。
+
+
+Person.prototype.getName = function(){
+    return this.name;
 }
-
-Clz.haha = function () {
-    console.log("xixi")
-}
-
-Clz.haha()
-new Clz().haha()
-
-
+var person = new Person('zjutkz');
+console.log(Person.prototype)
