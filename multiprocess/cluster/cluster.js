@@ -6,6 +6,9 @@ var cluster = require('cluster');
 var http = require('http');
 var numCPUs = require('os').cpus().length;
 
+var express = require('express');
+var app = express();
+
 console.log("program start...");
 
 if (cluster.isMaster) {
@@ -62,9 +65,24 @@ if (cluster.isMaster) {
         process.send('[worker] worker'+cluster.worker.id+' received!');
     });
 
-    http.createServer(function (req, res) {
-        res.writeHead(200, {"content-type": "text/html"});
-        res.end('worker'+cluster.worker.id+',PID:'+process.pid);
-    }).listen(8080);
+    // http.createServer(function (req, res) {
+    //     startTime = new Date().getTime();
+    //     while (new Date().getTime() < startTime + 5000);
+    //     res.writeHead(200, {"content-type": "text/html"});
+    //     res.end('delay worker'+cluster.worker.id+',PID:'+process.pid);
+    // }).listen(8080);
 
+    app.get('/delay', function (request, response) {
+        var startTime = new Date().getTime();
+        while (new Date().getTime() < startTime + 5000);
+        response.send("delay get")
+    })
+    app.get('/notDelay', function (request, response) {
+        response.send("not delay get")
+    })
+
+
+    app.listen(8080, function () {
+        console.log("服务已启动: " + cluster.worker.id+',PID:'+process.pid);
+    });
 }

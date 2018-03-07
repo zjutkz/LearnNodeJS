@@ -11,4 +11,4 @@ function sleep(milliSeconds) {  // 模拟卡顿
 // exports.delay = delay;
 
 
-sleep(3000);
+sleep(5000);
