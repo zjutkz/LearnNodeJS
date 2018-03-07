@@ -42,7 +42,7 @@ app.get('/', function (request, response) {
     // req.end();
     var startTime = new Date().getTime();
     while (new Date().getTime() < startTime + 5000);
-    response.send("shabi")
+    response.send("delay get")
 });
 
 
@@ -51,7 +51,7 @@ app.post('/', function (req, res) {
     console.log("主页 POST 请求");
     var startTime = new Date().getTime();
     while (new Date().getTime() < startTime + 5000);
-    res.send('Hello POST');
+    res.send('delay post');
 });
 
 //  /del_user 页面响应
