@@ -20,18 +20,38 @@ var fs = require("fs");
 
 //async和await感觉是在语法层面上解决了callback hell，代码比起一味的then then的要好看很多
 
-function haha(fileName) {
+// function haha(fileName) {
+//     return new Promise(function (resolve, reject) {
+//         fs.readFile(fileName,"utf-8",function(err, data) {
+//             resolve(data);
+//         });
+//     });
+// }
+//
+// async function fetch(){
+//     var txt1 = await haha("file1");
+//     var txt2 = await haha("file2");
+//     console.log(txt1 + " " + txt2)
+// }
+//
+// fetch()
+
+
+//模拟第一个接口请求rt很大的情况
+let index = 0;
+
+function doSth(delay) {
     return new Promise(function (resolve, reject) {
-        fs.readFile(fileName,"utf-8",function(err, data) {
-            resolve(data);
-        });
-    });
+        let startTime = new Date().getTime();
+        while (new Date().getTime() < startTime + delay);
+        resolve("some value: " + ++index)
+    })
+}
+async function delay(delay) {
+    console.log("start...");
+    let haha = await doSth(delay);
+    console.log(haha)
 }
 
-async function fetch(){
-    var txt1 = await haha("file1");
-    var txt2 = await haha("file2");
-    console.log(txt1 + " " + txt2)
-}
-
-fetch()
+delay(5000);
+delay(1);
