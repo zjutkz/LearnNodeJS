@@ -12,40 +12,45 @@ const child_process = require('child_process');
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.get('/', function (request, response) {
-    console.log("主页 GET 请求");
-
-    const options = {
-        hostname:"localhost",
-        port:9999,
-        path:"/product/list",
-        method: 'GET',
-    };
-
-    var req = http.request(options,function(res){
-        res.setEncoding('utf-8');
-        res.on('data',function(chunk){
-            var products = JSON.parse(chunk);
-            response.render('index', {
-                products: products
-            });
-            response.end();
-        });
-        res.on('end',function(){
-            console.log('响应结束********');
-        });
-    });
-
-    req.on('error',function(err){
-        console.error(err);
-    });
-
-    req.end();
+    // console.log("主页 GET 请求");
+    //
+    // const options = {
+    //     hostname:"localhost",
+    //     port:9999,
+    //     path:"/product/list",
+    //     method: 'GET',
+    // };
+    //
+    // var req = http.request(options,function(res){
+    //     res.setEncoding('utf-8');
+    //     res.on('data',function(chunk){
+    //         var products = JSON.parse(chunk);
+    //         response.render('index', {
+    //             products: products
+    //         });
+    //         response.end();
+    //     });
+    //     res.on('end',function(){
+    //         console.log('响应结束********');
+    //     });
+    // });
+    //
+    // req.on('error',function(err){
+    //     console.error(err);
+    // });
+    //
+    // req.end();
+    var startTime = new Date().getTime();
+    while (new Date().getTime() < startTime + 5000);
+    response.send("shabi")
 });
 
 
 //  POST 请求
 app.post('/', function (req, res) {
     console.log("主页 POST 请求");
+    var startTime = new Date().getTime();
+    while (new Date().getTime() < startTime + 5000);
     res.send('Hello POST');
 });
 

@@ -50,7 +50,7 @@ function doSth(delay) {
 async function delay(delay) {
     console.log("start...");
     let haha = await doSth(delay);
-    console.log(haha)
+    console.log(haha);
 }
 
 delay(5000);
