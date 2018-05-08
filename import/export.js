@@ -4,7 +4,12 @@
 var User = function(name, email) {
     console.log("name: " + name + " & email: " + email);
 };
+
+var AnotherFunc = function (name, email) {
+    console.log("another function: " + name + " " + email)
+}
 module.exports.logUser = User;
+module.exports.anotherFunc = AnotherFunc;
 //module.exports = User;
 
 //==============================================================
