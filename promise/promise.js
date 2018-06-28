@@ -44,13 +44,21 @@ function doSth(delay) {
     return new Promise(function (resolve, reject) {
         let startTime = new Date().getTime();
         while (new Date().getTime() < startTime + delay);
-        resolve("some value: " + ++index)
+        if(delay > 100) {
+            resolve("some value: " + ++index)
+        }else {
+            reject("reject!")
+        }
     })
 }
 async function delay(delay) {
     console.log("start...");
-    let haha = await doSth(delay);
-    console.log(haha);
+    try {
+        let haha = await doSth(delay);
+        console.log(haha);
+    }catch (error) {
+        console.log(error)
+    }
 }
 
 delay(5000);
