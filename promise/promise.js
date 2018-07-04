@@ -55,11 +55,19 @@ async function delay(delay) {
     console.log("start...");
     try {
         let haha = await doSth(delay);
-        console.log(haha);
+        console.log(haha)
+        //return haha + " aaa"
     }catch (error) {
         console.log(error)
     }
 }
 
-delay(5000);
-delay(1);
+delay(1)
+delay(500)
+
+//async方法返回的是一个promise，不能直接拿返回值，要用promise的方式
+
+// let data = delay(500);
+// data.then(function (data) {
+//     console.log(data)
+// })
