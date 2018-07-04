@@ -54,9 +54,9 @@ function doSth(delay) {
 async function delay(delay) {
     console.log("start...");
     try {
-        let haha = await doSth(delay);
+        //let haha = await doSth(delay);
         console.log(haha)
-        //return haha + " aaa"
+        return {"haha": haha}
     }catch (error) {
         console.log(error)
     }
@@ -65,9 +65,19 @@ async function delay(delay) {
 delay(1)
 delay(500)
 
-//async方法返回的是一个promise，不能直接拿返回值，要用promise的方式
+//async方法返回的是一个promise，不能直接拿返回值，要用promise的方式，或者用await
 
-// let data = delay(500);
-// data.then(function (data) {
-//     console.log(data)
-// })
+// function test() {
+//     let promise = delay(500);
+//     promise.then(function (data) {
+//         console.log(data.haha);
+//     })
+// }
+
+
+// async function test() {
+//     let data = await delay(500);
+//     console.log(data.haha);
+// }
+
+// test()
