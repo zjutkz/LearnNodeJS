@@ -43,3 +43,5 @@ setTimeout(function () {
         console.log(value)
     })
 },1000)
+
+console.log("A")
