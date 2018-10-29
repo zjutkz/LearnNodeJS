@@ -89,7 +89,8 @@ function getWithCallback(port, path, callback) {
     })
 }
 
+Promise.all([get(8081, "/delay"), get(8081, "/delay2")]).then(function (res) {
 
-get(8080, "/delay")
-get(8080, "/notDelay")
+});
+//get(8080, "/notDelay")
 //get("/del_user/1.0")

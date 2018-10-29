@@ -12,46 +12,39 @@ const child_process = require('child_process');
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.get('/', function (request, response) {
-    // console.log("主页 GET 请求");
-    //
-    // const options = {
-    //     hostname:"localhost",
-    //     port:9999,
-    //     path:"/product/list",
-    //     method: 'GET',
-    // };
-    //
-    // var req = http.request(options,function(res){
-    //     res.setEncoding('utf-8');
-    //     res.on('data',function(chunk){
-    //         var products = JSON.parse(chunk);
-    //         response.render('index', {
-    //             products: products
-    //         });
-    //         response.end();
-    //     });
-    //     res.on('end',function(){
-    //         console.log('响应结束********');
-    //     });
-    // });
-    //
-    // req.on('error',function(err){
-    //     console.error(err);
-    // });
-    //
-    // req.end();
+    console.log("主页 GET 请求");
 
-    var startTime = new Date().getTime();
-    while (new Date().getTime() < startTime + 5000);
-    response.send("delay get")
+    const options = {
+        hostname:"localhost",
+        port:9999,
+        path:"/product/list",
+        method: 'GET',
+    };
+
+    let products = [{
+        name: "aaaa",
+        desc: "bbbb",
+        price: "100"
+    }];
+
+    response.render('index', {
+        products: products
+    });
+    response.end();
 });
 
 
 //  POST 请求
-app.post('/', function (req, res) {
+app.get('/delay', function (req, res) {
     console.log("主页 POST 请求");
     var startTime = new Date().getTime();
     while (new Date().getTime() < startTime + 5000);
+    res.send('delay post');
+});
+app.get('/delay2', function (req, res) {
+    console.log("主页 POST 请求");
+    var startTime = new Date().getTime();
+    while (new Date().getTime() < startTime + 1000);
     res.send('delay post');
 });
 
@@ -96,3 +89,9 @@ app.get('/ab*cd', function(req, res) {
 var server = app.listen(8081, function () {
     console.log("服务已启动");
 });
+
+function sleep(milliSeconds) {  // 模拟卡顿
+    var startTime = new Date().getTime();
+    while (new Date().getTime() < startTime + milliSeconds);
+    console.log("delay complete");
+}

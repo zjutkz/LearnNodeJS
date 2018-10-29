@@ -43,14 +43,39 @@ let index = 0;
 function doSth(delay) {
     return new Promise(function (resolve, reject) {
         let startTime = new Date().getTime();
-        while (new Date().getTime() < startTime + delay);
-        if(delay > 100) {
-            resolve("some value: " + ++index)
-        }else {
-            reject("reject!")
-        }
+        //while (new Date().getTime() < startTime + delay);
+        // if(delay > 100) {
+        //     resolve("some value: " + ++index)
+        // }else {
+        //     reject("reject!")
+        // }
+        //resolve("result");
+        setTimeout(function  () {
+        resolve('result');
+    },delay);
     })
 }
+async function test() {
+    let start = Date.now();
+    for(let i = 0; i < 100; i++) {
+        await doSth(30);
+    }
+    console.log("test: " + (Date.now() - start));
+}
+async function testAll() {
+    let start = Date.now();
+    let arr = [];
+    for(let i = 0; i < 100; i++) {
+        arr.push(doSth(30));
+    }
+    await Promise.all(arr);
+    console.log("testAll: " + (Date.now() - start));
+}
+//test();
+testAll();
+
+
+
 async function delay(delay) {
     console.log("start...");
     try {
@@ -62,8 +87,8 @@ async function delay(delay) {
     }
 }
 
-delay(1)
-delay(500)
+// delay(1)
+// delay(500)
 
 //async方法返回的是一个promise，不能直接拿返回值，要用promise的方式，或者用await
 
@@ -81,3 +106,26 @@ delay(500)
 // }
 
 // test()
+
+
+
+// var a = new Promise(function  (resolve,reject) {
+//     console.log(1);
+//     setTimeout(function  () {
+//         console.log(11);
+//         resolve('aaa');
+//     },1000);
+// });
+//
+// var b = new Promise(function  (resolve,reject) {
+//     console.log(2);
+//     setTimeout(function  () {
+//         console.log(22);
+//         resolve('bbb');
+//     },300);
+// });
+//
+// var p = Promise.all([a,b]);
+// p.then(function(val) {
+//     console.log(val);
+// });

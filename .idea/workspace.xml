@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc04c4ea-c537-4ae6-b248-dd3de3baafb6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/LearnNodeJS.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/diff/diff.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/express/main.vue" />
+      <change beforePath="$PROJECT_DIR$/express/client.js" afterPath="$PROJECT_DIR$/express/client.js" />
+      <change beforePath="$PROJECT_DIR$/express/express.js" afterPath="$PROJECT_DIR$/express/express.js" />
+      <change beforePath="$PROJECT_DIR$/express/views/index.jade" afterPath="$PROJECT_DIR$/express/views/index.jade" />
+      <change beforePath="$PROJECT_DIR$/loveBlog/views/index.jade" afterPath="$PROJECT_DIR$/loveBlog/views/index.jade" />
+      <change beforePath="$PROJECT_DIR$/promise/promise.js" afterPath="$PROJECT_DIR$/promise/promise.js" />
+      <change beforePath="$PROJECT_DIR$/stream/stream.js" afterPath="$PROJECT_DIR$/stream/stream.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="promise.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/promise/promise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jade File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>})</find>
+      <find>createWriteStream</find>
+      <find>public</find>
+      <find>文件上传中...</find>
+      <find>文件上传成功！</find>
+      <find>alert</find>
+      <find>9999</find>
+      <find>no such file or directory</find>
+      <find>pubtyp</find>
+      <find>then</find>
+      <find>picName</find>
+      <find>submit</find>
+      <find>选择</find>
+      <find>express</find>
+      <find>index</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>});</replace>
+      <replace>console.log</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cluster/child.js" />
+        <option value="$PROJECT_DIR$/cluster/cluster.js" />
+        <option value="$PROJECT_DIR$/express/views/layout.jade" />
+        <option value="$PROJECT_DIR$/stream/writer" />
+        <option value="$PROJECT_DIR$/jenkins/server.js" />
+        <option value="$PROJECT_DIR$/ws/util.js" />
+        <option value="$PROJECT_DIR$/ws/server.js" />
+        <option value="$PROJECT_DIR$/ws/client.js" />
+        <option value="$PROJECT_DIR$/formidable/public/start.html" />
+        <option value="$PROJECT_DIR$/formidable/public/formidable.js" />
+        <option value="$PROJECT_DIR$/formidable/public/post.html" />
+        <option value="$PROJECT_DIR$/formidable/public/index.html" />
+        <option value="$PROJECT_DIR$/formidable/formidable.js" />
+        <option value="$PROJECT_DIR$/koa/view/index.html" />
+        <option value="$PROJECT_DIR$/koa/view/todo.html" />
+        <option value="$PROJECT_DIR$/koa/view/404.html" />
+        <option value="$PROJECT_DIR$/koa/server.js" />
+        <option value="$PROJECT_DIR$/koa/router.js" />
+        <option value="$PROJECT_DIR$/koa/get.js" />
+        <option value="$PROJECT_DIR$/koa/post_2.js" />
+        <option value="$PROJECT_DIR$/koa/cookie.js" />
+        <option value="$PROJECT_DIR$/koa/upload.js" />
+        <option value="$PROJECT_DIR$/generator/generator.js" />
+        <option value="$PROJECT_DIR$/prototype/prototype.js" />
+        <option value="$PROJECT_DIR$/express/delay.js" />
+        <option value="$PROJECT_DIR$/multiprocess/cluster/cluster.js" />
+        <option value="$PROJECT_DIR$/import/export.js" />
+        <option value="$PROJECT_DIR$/start/helloWorld.js" />
+        <option value="$PROJECT_DIR$/flow/flow.js" />
+        <option value="$PROJECT_DIR$/promise/promise2.js" />
+        <option value="$PROJECT_DIR$/koa/post_3.js" />
+        <option value="$PROJECT_DIR$/koa/post.js" />
+        <option value="$PROJECT_DIR$/loveBlog/routes/index.js" />
+        <option value="$PROJECT_DIR$/loveBlog/views/layout.jade" />
+        <option value="$PROJECT_DIR$/loveBlog/index.js" />
+        <option value="$PROJECT_DIR$/express/views/index.jade" />
+        <option value="$PROJECT_DIR$/express/main.vue" />
+        <option value="$PROJECT_DIR$/loveBlog/views/index.jade" />
+        <option value="$PROJECT_DIR$/diff/diff.js" />
+        <option value="$PROJECT_DIR$/stream/stream.js" />
+        <option value="$PROJECT_DIR$/stream/reader" />
+        <option value="$PROJECT_DIR$/import/import.js" />
+        <option value="$PROJECT_DIR$/express/client.js" />
+        <option value="$PROJECT_DIR$/express/express.js" />
+        <option value="$PROJECT_DIR$/promise/promise.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LearnNodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnNodeJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.13.0" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/formidable" />
+      <recent name="$PROJECT_DIR$/multiprocess" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/loveBlog" />
+      <recent name="$PROJECT_DIR$/formidable/public" />
+      <recent name="$PROJECT_DIR$/express/views" />
+      <recent name="$PROJECT_DIR$/express" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.promise.js">
+    <configuration name="client.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="client.js" working-dir="$PROJECT_DIR$/express" />
+    <configuration name="client.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="client.js" working-dir="$PROJECT_DIR$/ws" />
+    <configuration name="cluster.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="cluster.js" working-dir="$PROJECT_DIR$/multiprocess/cluster" />
+    <configuration name="cookie.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="cookie.js" working-dir="$PROJECT_DIR$/koa" />
+    <configuration name="diff.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="diff.js" working-dir="$PROJECT_DIR$/diff" />
+    <configuration name="express.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="express.js" working-dir="$PROJECT_DIR$/express" />
+    <configuration name="flow.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="flow.js" working-dir="$PROJECT_DIR$/flow" />
+    <configuration name="formidable.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="$PROJECT_DIR$/formidable/formidable.js" working-dir="$PROJECT_DIR$/formidable/public" />
+    <configuration name="generator.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="generator.js" working-dir="$PROJECT_DIR$/generator" />
+    <configuration name="get.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="get.js" working-dir="$PROJECT_DIR$/koa" />
+    <configuration name="helloWorld.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="helloWorld.js" working-dir="$PROJECT_DIR$/start" />
+    <configuration name="import.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="import.js" working-dir="$PROJECT_DIR$/import" />
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/loveBlog" />
+    <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/multiprocess" />
+    <configuration name="post_2.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="post_2.js" working-dir="$PROJECT_DIR$/koa" />
+    <configuration name="post_3.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="post_3.js" working-dir="$PROJECT_DIR$/koa" />
+    <configuration name="post.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="post.js" working-dir="$PROJECT_DIR$/koa" />
+    <configuration name="promise2.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="promise2.js" working-dir="$PROJECT_DIR$/promise" />
+    <configuration name="promise.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="promise.js" working-dir="$PROJECT_DIR$/promise" />
+    <configuration name="prototype.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="prototype.js" working-dir="$PROJECT_DIR$/prototype" />
+    <configuration name="router.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="router.js" working-dir="$PROJECT_DIR$/koa" />
+    <configuration name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/koa" />
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/ws" />
+    <configuration name="stream.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="stream.js" working-dir="$PROJECT_DIR$/stream" />
+    <list size="24">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.helloWorld.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.flow.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.promise.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.generator.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.main.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.cluster.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.express.js" />
+      <item index="7" class="java.lang.String" itemvalue="Node.js.stream.js" />
+      <item index="8" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="9" class="java.lang.String" itemvalue="Node.js.formidable.js" />
+      <item index="10" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
+      <item index="11" class="java.lang.String" itemvalue="Node.js.router.js" />
+      <item index="12" class="java.lang.String" itemvalue="Node.js.get.js" />
+      <item index="13" class="java.lang.String" itemvalue="Node.js.post.js" />
+      <item index="14" class="java.lang.String" itemvalue="Node.js.post_2.js" />
+      <item index="15" class="java.lang.String" itemvalue="Node.js.cookie.js" />
+      <item index="16" class="java.lang.String" itemvalue="Node.js.post_3.js" />
+      <item index="17" class="java.lang.String" itemvalue="Node.js.promise2.js" />
+      <item index="18" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <item index="19" class="java.lang.String" itemvalue="Node.js.diff.js" />
+      <item index="20" class="java.lang.String" itemvalue="Node.js.client.js" />
+      <item index="21" class="java.lang.String" itemvalue="Node.js.client.js (1)" />
+      <item index="22" class="java.lang.String" itemvalue="Node.js.prototype.js" />
+      <item index="23" class="java.lang.String" itemvalue="Node.js.import.js" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.client.js (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.import.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.prototype.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.client.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc04c4ea-c537-4ae6-b248-dd3de3baafb6" name="Default" comment="" />
+      <created>1519300011605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519300011605</updated>
+      <workItem from="1519300014000" duration="1761000" />
+      <workItem from="1519301828565" duration="1795000" />
+      <workItem from="1519303948821" duration="678000" />
+      <workItem from="1519368935282" duration="288000" />
+      <workItem from="1519369268177" duration="1780000" />
+      <workItem from="1519371082370" duration="1513000" />
+      <workItem from="1519401978666" duration="13000" />
+      <workItem from="1519462771568" duration="1680000" />
+      <workItem from="1519634933089" duration="1636000" />
+      <workItem from="1519636779000" duration="1573000" />
+      <workItem from="1519639475631" duration="1166000" />
+      <workItem from="1519713179413" duration="1454000" />
+      <workItem from="1519715142031" duration="991000" />
+      <workItem from="1519717608473" duration="1785000" />
+      <workItem from="1519719645225" duration="1773000" />
+      <workItem from="1519799911753" duration="801000" />
+      <workItem from="1519801727876" duration="394000" />
+      <workItem from="1519803558635" duration="1758000" />
+      <workItem from="1519805393499" duration="475000" />
+      <workItem from="1519807465446" duration="1712000" />
+      <workItem from="1519809817321" duration="1492000" />
+      <workItem from="1519812418382" duration="1700000" />
+      <workItem from="1519814264356" duration="717000" />
+      <workItem from="1519872725908" duration="1804000" />
+      <workItem from="1519875184519" duration="914000" />
+      <workItem from="1519879989068" duration="5000" />
+      <workItem from="1519895385353" duration="221000" />
+      <workItem from="1519899488751" duration="525000" />
+      <workItem from="1520062197010" duration="948000" />
+      <workItem from="1520173974093" duration="408000" />
+      <workItem from="1520259687694" duration="1357000" />
+      <workItem from="1520261326679" duration="4006000" />
+      <workItem from="1520403127208" duration="17489000" />
+      <workItem from="1520906593637" duration="6547000" />
+      <workItem from="1521201508488" duration="451000" />
+      <workItem from="1521266661708" duration="600000" />
+      <workItem from="1525424166427" duration="20427000" />
+      <workItem from="1528699881497" duration="1777000" />
+      <workItem from="1528715928891" duration="8000" />
+      <workItem from="1528784593624" duration="2432000" />
+      <workItem from="1528880192964" duration="1469000" />
+      <workItem from="1530169697566" duration="4747000" />
+      <workItem from="1530238804883" duration="3029000" />
+      <workItem from="1530498292624" duration="32218000" />
+      <workItem from="1531383540971" duration="10234000" />
+      <workItem from="1532444494975" duration="472000" />
+      <workItem from="1535600678379" duration="2395000" />
+      <workItem from="1535700898252" duration="1821000" />
+      <workItem from="1536053749393" duration="9547000" />
+      <workItem from="1536248433643" duration="1036000" />
+      <workItem from="1537330985027" duration="726000" />
+      <workItem from="1537433989279" duration="602000" />
+      <workItem from="1537500995638" duration="56000" />
+      <workItem from="1538019923543" duration="993000" />
+      <workItem from="1538134901576" duration="65000" />
+      <workItem from="1540292956283" duration="269000" />
+      <workItem from="1540626525623" duration="2260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="160793000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2192216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3936508" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277439" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2192216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3936508" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$USER_HOME$/vbuilder-rocker-demo/vbuilder-demo/一个简单的项目/src/demo/index.js" />
+        <option value="$USER_HOME$/vbuilder-rocker-demo/vbuilder-demo/一个简单的项目/src/demo/service.js" />
+        <option value="$USER_HOME$/vbuilder-rocker-demo/vbuilder-demo/一个简单的项目/src/demo/router.js" />
+        <option value="$USER_HOME$/vbuilder-rocker-demo/vbuilder-demo/一个简单的项目/start.js" />
+        <option value="$USER_HOME$/vbuilder-rocker-demo/vbuilder-demo/有rpc功能的项目/src/demo/interface/dubboInterface.js" />
+        <option value="$USER_HOME$/vbuilder-rocker-demo/vbuilder-demo/有rpc功能的项目/src/demo/interface/httpInterface.js" />
+        <option value="$USER_HOME$/vbuilder-rocker-demo/vbuilder-demo/有rpc功能的项目/start.js" />
+        <option value="$USER_HOME$/vbuilder-rocker-demo/vbuilder-demo/有rpc功能的项目/src/demo/staticFileProxy.js" />
+        <option value="$USER_HOME$/business-weex/start.js" />
+        <option value="$USER_HOME$/business-weex/src/thor/thorBootstrap.js" />
+        <option value="$USER_HOME$/business-weex/src/dubbo/dubboBootstrap.js" />
+        <option value="$USER_HOME$/vdynamic/src/router/uiRouter.js" />
+        <option value="$USER_HOME$/vdynamic/src/router/dubboRouter.js" />
+        <option value="$USER_HOME$/nodeNewRPCDemo/start.js" />
+        <option value="$USER_HOME$/vdynamic/src/dao/model/weexQuery.js" />
+        <option value="$USER_HOME$/vdynamic/common/refer.js" />
+        <option value="$USER_HOME$/vdynamic/src/bootstrap/dbBootstrap.js" />
+        <option value="$USER_HOME$/vdynamic/src/api/weexManager.js" />
+        <option value="$USER_HOME$/vdynamic/src/dubbo/api/experimentService.js" />
+        <option value="$USER_HOME$/vdynamic/common/util/trasfers.js" />
+        <option value="$USER_HOME$/vdynamic/common/ajax/index.js" />
+        <option value="$USER_HOME$/vdynamic/common/api/url.js" />
+        <option value="$USER_HOME$/vdynamic/common/api/index.js" />
+        <option value="$USER_HOME$/vdynamic/src/router/httpRouter.js" />
+        <option value="$USER_HOME$/vdynamic/src/dao/model/getWeexListResult.js" />
+        <option value="$USER_HOME$/vdynamic/start.js" />
+        <option value="$USER_HOME$/vdynamic/src/dubbo/api/whiteListService.js" />
+        <option value="$USER_HOME$/vdynamic/src/dubbo/api/userQueryService.js" />
+        <option value="$USER_HOME$/vdynamic/common/util/platforms.js" />
+        <option value="$USER_HOME$/vdynamic/common/util/extras.js" />
+        <option value="$USER_HOME$/vdynamic/common/util/jsons.js" />
+        <option value="$USER_HOME$/vdynamic/src/dubbo/api/appService.js" />
+        <option value="$USER_HOME$/vdynamic/common/util/envs.js" />
+        <option value="$USER_HOME$/vdynamic/src/dubbo/dao/bucketDTO.js" />
+        <option value="$USER_HOME$/vdynamic/src/dubbo/dao/greyRuleDTO.js" />
+        <option value="$USER_HOME$/vdynamic/src/dubbo/dao/greyRuleDO.js" />
+        <option value="$USER_HOME$/vdynamic/src/dubbo/api/bucketService.js" />
+        <option value="$USER_HOME$/vdynamic/common/util/dates.js" />
+        <option value="$USER_HOME$/cangjie/src/bootstrap/dbBootstrap.js" />
+        <option value="$USER_HOME$/cangjie/src/requestData/index.js" />
+        <option value="$USER_HOME$/cangjie/src/dubbo/index.js" />
+        <option value="$USER_HOME$/cangjie/src/http/index.js" />
+        <option value="$USER_HOME$/cangjie/src/routes/front/home/router.js" />
+        <option value="$USER_HOME$/cangjie/src/routes/api/event/router.js" />
+        <option value="$USER_HOME$/cangjie/src/routes/api/monitor/router.js" />
+        <option value="$USER_HOME$/cangjie/src/routes/dubbo/router.js" />
+        <option value="$USER_HOME$/cangjie/src/routes/dao/router.js" />
+        <option value="$USER_HOME$/cangjie/start.js" />
+        <option value="$USER_HOME$/cangjie/config.js" />
+        <option value="$USER_HOME$/cangjie/common/ajax/index.js" />
+        <option value="$USER_HOME$/cangjie/common/util/permissions.js" />
+        <option value="$USER_HOME$/cangjie/common/util/envs.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/utProtlOpModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/appVersionModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/testModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/wtBizEventModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/wtEventModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/wtBizEventDevModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/wtOpModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/wtUserTagsModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/wtRegTestingModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/appModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/model/utProtlModel.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/appMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/wtEventMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/wtBizEventMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/utProtlOpMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/testMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/wtBizEventDevMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/wtUserTagsMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/wtOpMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/appVersionMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/wtRegTestingMapper.js" />
+        <option value="$USER_HOME$/cangjie/src/dao/mapper/utProtlMapper.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="38" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>file</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>req.headers</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>fs.createReadStream('aaaa')</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.parse(chunk)</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.parse(chunk).desc</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.parse(chunk).name</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.parse(chunk).id</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chunk</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>generator.next().value.</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>generator.next().value</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>generator.next()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/express/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express/delay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/export.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/import.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/export.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/import.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/export.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/import.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express/main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express/delay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="80" column="15" lean-forward="false" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promise/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

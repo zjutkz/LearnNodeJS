@@ -1,18 +1,18 @@
 //https://segmentfault.com/a/1190000000519006
 
 var fs = require('fs');
-var readStream = fs.createReadStream('reader');
-var writeStream = fs.createWriteStream('writer');
-
-
-console.log(fs.statSync("reader"));
-readStream.on('data', function(chunk) { // 当有数据流出时，写入数据
-    writeStream.write(chunk);
-});
-
-readStream.on('end', function() { // 当没有数据时，关闭数据流
-    writeStream.end();
-});
+// var readStream = fs.createReadStream('reader');
+// var writeStream = fs.createWriteStream('writer');
+//
+//
+// console.log(fs.statSync("reader"));
+// readStream.on('data', function(chunk) { // 当有数据流出时，写入数据
+//     writeStream.write(chunk);
+// });
+//
+// readStream.on('end', function() { // 当没有数据时，关闭数据流
+//     writeStream.end();
+// });
 
 //=========================================================================
 
@@ -32,4 +32,4 @@ readStream.on('end', function() { // 当没有数据时，关闭数据流
 
 //=========================================================================
 
-//fs.createReadStream('reader').pipe(fs.createWriteStream('writer'));
+fs.createReadStream('reader').pipe(fs.createWriteStream('writer'));
